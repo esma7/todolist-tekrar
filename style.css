@@ -1,0 +1,72 @@
+
+#modal-special {
+    width: 95%;
+    height: 10rem;
+    background-color: lightblue;
+    top: 7rem;
+    z-index: 999;
+    position: absolute;
+    display: none; 
+    /* flex */
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 10px;
+}
+
+#modal-special input {
+    width: 80%;
+    height: 2.5rem;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+#modal-special button {
+    background-color: green;
+    transition: 1s;
+    height: 3rem;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+#modal-special button:hover {
+    background-color: #fff;
+    color: green;
+}
+#editClose {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 1rem;
+    z-index: 9999;
+    background-color: rgb(133, 6, 6);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+#editClose:hover {
+    background-color: #fff;
+    color: red;
+}
+
+.done{
+    text-decoration: line-through;
+    background-color: lightblue;
+}
+
+#hesabla{
+    display: flex;
+    justify-content: end;
+    margin:1rem;
+}
